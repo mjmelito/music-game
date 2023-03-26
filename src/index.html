@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Song Guessing Game</title>
+  <!-- <script src="https://sdk.scdn.co/spotify-player.js"></script> -->
 </head>
 <body>
-  <div id="container">
-    <h1>Header</h1>
-    <p>Paragraph</p>
-  </div> 
+  <section class="wavyBackground">
+    <div class="wrapper">
+	    <h1>Guess that Song</h1>
+      <script src="https://sdk.scdn.co/spotify-player.js"></script>
+      <p title="How Much Time You Have Left" id="timer">Time remaining: </p>
+      <p title="How Many Lives You Have Left" id="lives">Lives: </p>
+      <p title="If You Make It To 100, You Win!" id="score">Score: 0</p>
+      <div id="player"></div>
+      <form id="guess-form">
+        <input type="text" id="guess-input" placeholder="Enter your guess" >
+        <br>
+        <br>
+        <button type="button" id="play-button" class="led-button">Play</button>
+        <button type="button" id="pause-button" class="led-button">Pause</button>
+        <button type="button" id="next-button" class="led-button">Next</button>
+        <button type="button" id="end-button" class="led-button">End</button>
+      </form>
+	    <p id="result"></p>
+    </div>
+  </section>
 </body>
 </html>
