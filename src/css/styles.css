@@ -1,21 +1,3 @@
-/* body {
-  background: 
-  linear-gradient(
-    to right,
-    #1ccc5b,
-    #0575e6);
-    background-image: linear-gradient(to right,  #1ccc5b, #0575e6);
-    animation: moveGradient 10s linear infinite;
-    @keyframes moveGradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      100% {
-        background-position: 100% 50%;
-      }
-    }
-} */
-
 body {
   background-color: rgba(0, 128, 0, 0);
   background-image: linear-gradient(to right, #1ccc5b, #5bcf1c, #a8e063, #5bcf1c, #1ccc5b);
@@ -110,3 +92,13 @@ input[type="text"] {
   color: rgb(0, 0, 0);
 }
 
+#timer {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  text-align: center;
+}
